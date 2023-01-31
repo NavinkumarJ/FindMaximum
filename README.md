@@ -25,12 +25,7 @@ max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
 ii)	# To find the maximum marks using the list method max().
 ```Python
 def max_marks(marks):
-
-    max1=marks[0]
-    for i in marks:
-        if i>max1:
-            max1 = i
-    return max1
+    return max(marks)
 max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
 ```
 
